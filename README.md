@@ -1,4 +1,15 @@
-Instrucciones
+# Test Web-scraper Tech-K
+
+## Instrucciones de uso
+---
+
+1. [Duplicar](https://help.github.com/es/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) el proyecto
+2. Cambiar su [visibilidad](https://help.github.com/es/github/administering-a-repository/setting-repository-visibility) a privado
+3. Agregar al usuario `techk-devs` como colaborador dentro del repositorio
+4. Desarrollar lo que se indica en la siguiente sección. Si existen supuestos, estos deben definirse claramente en el README
+5. Notificar mediante email cuando este listo y enviar el link del repositorio privado.
+
+## Instrucciones de desarrollo
 ---
 
 1. Buscar todos los libros (recorrer la paginación) de este link: http://books.toscrape.com/
@@ -33,7 +44,12 @@ Instrucciones
 5. Se debe incluir un archivo requeriments.txt con las dependencias que requiera el script.
 6. Se debe entregar un pull-request con la solución y una breve descripción/explicación.
 
-En qué nos fijaremos
+## Bonus que suman puntos
+---
+* Usar la librería `Requests` y `BeautifulSoup`
+* Uso de tests unitarios
+
+## En qué nos fijaremos
 ---
 * Correcto uso de GIT
 * Patrones de diseño
