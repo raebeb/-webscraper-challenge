@@ -27,8 +27,7 @@
         * Tax
         * Availability
         * Number of reviews
-3. Se recomienda usar las librerías [Requests](http://docs.python-requests.org/en/master/) y [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-4. Los resultados se deben exportar en un archivo CSV con las siguientes cabeceras:
+3. Los resultados se deben exportar en un archivo CSV con las siguientes cabeceras:
     * Title
     * Price
     * Stock
@@ -41,12 +40,11 @@
     * Tax
     * Availability
     * Number of reviews
-5. Se debe incluir un archivo requeriments.txt con las dependencias que requiera el script.
-6. Se debe entregar un pull-request con la solución y una breve descripción/explicación.
+4. Se debe incluir un archivo requeriments.txt con las dependencias que requiera el script.
 
 ## Bonus que suman puntos
 ---
-* Usar la librería `Requests` y `BeautifulSoup`
+* Usar las librerías [Requests](http://docs.python-requests.org/en/master/) y [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * Uso de tests unitarios
 
 ## En qué nos fijaremos
