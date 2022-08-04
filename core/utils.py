@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import csv
 import logging
 from django.core.exceptions import ObjectDoesNotExist
 from core.models import Book
@@ -17,13 +16,12 @@ def create_soup(url):
     """
     response = requests.get(url)
     if response.status_code != 200:
-        logging.error(f'Error: {response}')
+        logging.error('Error: %s', response.status_code)
         return None
     soup = BeautifulSoup(response.text, 'html.parser')
     return soup
 
-def get_books():
-    
+def get_books():   
     """
     Get all books from a page
     """
@@ -37,7 +35,7 @@ def get_books():
         soup = create_soup(full_url)
 
         if soup is None:
-            logging.error(f'Error: {soup}')
+            logging.error('Error: soup is None')
             continue
 
         books = soup.find_all('article')
@@ -48,9 +46,9 @@ def get_books():
             book_query_parameter = book.find('a')['href']
             book_full_url = f'{base_url}catalogue/{book_query_parameter}'
             soup = create_soup(book_full_url)
-            
+
             if soup is None:
-                logging.error(f'Error: {soup}')
+                logging.error('Error: soup is None')
                 continue
 
             try:
@@ -78,4 +76,3 @@ def get_books():
                 print(f'*** BOOK {new_book.title} SAVED! ***')
 
     return True
-
