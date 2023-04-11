@@ -96,9 +96,7 @@ Destroying test database for alias 'default'...
 * [Francisca Osores](https://www.linkedin.com/in/francisca-osores-ortiz-152347149/) - Trabajo inicial
 
 ***
-## Expresiones de Gratitud 🎁
-_Quiero utilizar este espacio para agradecer a la empresa Tech-k y a su equipo de reclutamiento por considerarme para participar en este proceso de selección y darme la oportunidad de demostrar mis conocimientos mediante este desafío, espero poder cumplir con sus expectativas, por mi parte me divertí mucho desarrollando este proyecto y sin duda ha sido una oportunidad de profundizar mis conocimientos ก₍⸍⸌̣ʷ̣̫⸍̣⸌₎ค_
-***
+
 ## ⌨️ con ❤️ por [Francisca Osores](https://www.linkedin.com/in/francisca-osores-ortiz-152347149/) 👩‍💻
 
 ```
